@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: aqua;
+    font-size: 30px;
+    
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: 25px;
+}
+header {
+    background-color: gray;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(68, 59, 59, 0);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > a {
+    color: white;
+    font-weight: bold;
+}
