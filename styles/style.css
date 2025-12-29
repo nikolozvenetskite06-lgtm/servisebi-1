@@ -211,17 +211,39 @@ body {
 }
 
 .cards {
- display: grid;
-grid-template-columns: repeat(4, 1fr); 
-gap: 40px;
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .card {
     background: #14161a;
     border-radius: 16px;
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    width: 220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 255, 153, 0.2);
+}
+
+.card-icon {
+    font-size: 50px;
+    color: #00ff99;
+    margin-bottom: 10px;
 }
 
 .card-img {
