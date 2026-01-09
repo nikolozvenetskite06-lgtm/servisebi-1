@@ -25,6 +25,7 @@ nav > a {
     color: white;
     font-weight: bold;
 }
+
 .site-brand {
     color: white;
     font-weight: 800px;
@@ -376,6 +377,11 @@ button {
   .footer-section {
     margin-bottom: 30px;
   }
+}
+
+#techschool {
+    color: white;
+    font-size: 20px;
 }
 
 
